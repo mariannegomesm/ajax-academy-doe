@@ -12,12 +12,12 @@ const Confirm = () => {
   if (object.name && object.email && object.type) {
     list.push(object);
 
-    const ul = document.getElementById("list");
+    var ul = document.getElementById("list");
 
     if (object) {
-      const li = document.createElement("li");
-      const span = document.createElement("span");
-      const text = document.createTextNode(`( ${object.type} ) ${object.name}`);
+      var li = document.createElement("li");
+      var span = document.createElement("span");
+      var text = document.createTextNode(`( ${object.type} ) ${object.name}`);
 
       ul.appendChild(li);
       li.appendChild(span);
