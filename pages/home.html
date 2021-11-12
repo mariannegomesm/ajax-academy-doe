@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/home.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+    <title>DOE</title>
+</head>
+<body>
+    <section class="section-home">
+        <div class="container-home">
+            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_lsfhjhqp.json" background="transparent"  speed="1" loop autoplay></lottie-player>
+            <div class="description-illustration-home">
+                <span>Doe sangue, salve vidas!</span>
+                <span>Campanha de doação de sangue - 2021</span>
+            </div>
+        </div>
+        <div class="container-home">
+            <div>
+                <span class="material-icons icon">label_important</span>
+                <h3>A sua doação importa</h3>
+                <p>Mais de 38.000 doações são necessárias todos os dias. Apenas 1,9% da população brasileira doa sangue</p>
+            </div>
+            <div>
+                <div class="description-icons-home">
+                    <span class="material-icons icon"> add_circle_outline</span>
+                    <span>Entre na lista de doadores: </span>
+                </div>
+                <form>
+                    <input type="text" placeholder="Nome" id="name">
+                    <input type="text" placeholder="Email" id="email">
+                    <input type="text" placeholder="Tipo" id="type">
+                    <button onClick="Confirm()">Quero ajudar</button>
+                </form>
+                <div class="container-list-home">
+                    <div class="description-icons-home">
+                        <span class="material-icons icon">water_drop</span>
+                        <span>Últimos doadores: </span>
+                    </div>
+                    <ul id="list">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../script/home.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+</html>
