@@ -95,6 +95,7 @@ button {
   display: flex;
   text-align: center;
 
+  cursor: pointer;
   border: 0px;
   border-radius: 2rem;
 
