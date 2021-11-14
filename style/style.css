@@ -18,7 +18,7 @@ form {
 }
 
 .lottie-file {
-  width: 80%;
+  width: 90%;
   height: 60%;
 
   margin: 5rem auto 0;
@@ -32,10 +32,11 @@ form {
 }
 
 .container-illustration {
-  width: 40%;
+  width: 38%;
 
   text-align: center;
 
+  color: var(--color-white) !important;
   background-color: var(--color-secondary);
 }
 
@@ -43,11 +44,13 @@ form {
   font-weight: 500;
 }
 
+.container-data p {
+  color: #808080;
+}
+
 .container-data-illustration span,
 .container-data p {
   font-size: 0.85rem;
-
-  color: #808080;
 }
 
 .icon {
@@ -68,7 +71,7 @@ form {
 }
 
 .container-form {
-  width: 60%;
+  width: 62%;
   padding: 0 8%;
 
   justify-content: center;
@@ -90,7 +93,7 @@ button {
   width: 55%;
   height: 2.6rem;
 
-  margin: 0 auto;
+  margin: 1rem auto 0;
 
   border: 0px;
   border-radius: 2rem;
