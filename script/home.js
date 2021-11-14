@@ -14,15 +14,13 @@ const Confirm = () => {
 
     var ul = document.getElementById("list");
 
-    if (object) {
-      var li = document.createElement("li");
-      var span = document.createElement("span");
-      var text = document.createTextNode(`( ${object.type} ) ${object.name}`);
+    var li = document.createElement("li");
+    var span = document.createElement("span");
+    var text = document.createTextNode(`( ${object.type} ) ${object.name}`);
 
-      ul.appendChild(li);
-      li.appendChild(span);
-      span.appendChild(text);
-    }
+    ul.appendChild(li);
+    li.appendChild(span);
+    span.appendChild(text);
 
     people.value = "";
     email.value = "";
