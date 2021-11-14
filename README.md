@@ -5,7 +5,7 @@ Aplicação DOE, desenvolvida para apresentação do projeto Ajax Academy. 🩸�
 
 ##
 
-![image](https://user-images.githubusercontent.com/66935004/141663875-0006b4c9-7761-4cc8-903b-719e9bdfb997.png)
+![image](https://user-images.githubusercontent.com/66935004/141665491-9b30c917-fb62-4802-8623-23706759f52e.png)
 
 #### Tecnologias:
 HTML, CSS e Javascript
