@@ -1,12 +1,11 @@
 # ajax-academy-doe
 
 #### Sobre: 
-Aplicação DOE, desenvolvida para o projeto Ajax Academy. 🩸💉
+Aplicação DOE, desenvolvida para apresentação do projeto Ajax Academy. 🩸💉 <br/>
 
 ##
 
-#### Minha versão:
-![image](https://user-images.githubusercontent.com/66935004/141515594-f8d0458b-1f7a-4d70-b0e7-9157c9d23946.png)
+![image](https://user-images.githubusercontent.com/66935004/141663875-0006b4c9-7761-4cc8-903b-719e9bdfb997.png)
 
 #### Tecnologias:
 HTML, CSS e Javascript
