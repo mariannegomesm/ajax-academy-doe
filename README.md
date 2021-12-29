@@ -1,7 +1,9 @@
 # ajax-academy-doe
 
-#### Sobre: 
-Aplicação DOE, desenvolvida para apresentação do projeto Ajax Academy. 🩸💉 <br/>
+#### Sobre:
+
+Aplicação desenvolvida para a apresentação do projeto Ajax Academy - 2021. 💉🩸 <br />
+Tem como intuito abordar alguns conceitos básicos do javascript, com uma interface simples e objetiva.
 
 ##
 
